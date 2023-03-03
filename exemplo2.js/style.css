@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Noto+Sans:wght@100&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Anek Malayalam, sans-serif;
+    
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: cadetblue;
+}
+
+header, footer{
+
+    text-align: center;
+}
+section.formulario{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+main{
+
+    border-radius: 10px;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 2rem auto;
+    background-color: rgb(219, 237, 237);
+    
+}
+section.imagem img{
+
+    width: 200px;
+    height: 200px;
+}
+#button{
+
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(16, 16, 114);
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px  rgb(121, 119, 119);
+    font-size: 15px;
+}
+input{
+
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+
+
+
